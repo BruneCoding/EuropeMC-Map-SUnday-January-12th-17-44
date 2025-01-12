@@ -46,12 +46,12 @@ UnminedCustomMarkers = {
             z: 4702,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
-            imageScale: 0.5,
+            imageScale: 0.15,
             text: "Belgrade",
             textColor: "red", 
             offsetX: 0,
             offsetY: 20,
-            font: "bold 20px Calibri,sans serif",
+            font: "Helvetica, cursive",
         },
 
 
@@ -61,23 +61,26 @@ UnminedCustomMarkers = {
             z: 5193,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
-            imageScale: 0.5,
+            imageScale: 0.15,
             text: "Nova Roma",
             textColor: "red", 
             offsetX: 0,
             offsetY: 20,
-            font: "bold 20px Calibri,sans serif",
+            font: "Helevetica, cursive",
         },
 
         // Example 3: Text only
         {
             x: 2173,
             z: 4449,
+            image: "custom.pin.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.15,
             text: "Spawn", 
             textColor: "yellow", 
             offsetX: 0,
-            offsetY: 0, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: 20, 
+            font: "Helvetica, cursive",
         },
 
         // add your markers here
