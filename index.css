@@ -12,6 +12,10 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
   position: relative;
   overflow: hidden;
+  position: absolute;
+  z-index: top;
+  right: 10px;
+  bottom: 10px;
 }
 
 .toggle-day h1, .toggle-day p {
