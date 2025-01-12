@@ -25,7 +25,7 @@ class RegionMap {
         const tileBlockPoint = {
             x: tileX * tileBlockSize,
             z: tileZ * tileBlockSize
-        };
+        }; 
 
 
         const tileRegionPoint = {
@@ -460,9 +460,9 @@ class Unmined {
 
             contextmenu.clear();
             contextmenu.push({
-                text: `Copy /tp ${coordinates[0]} ~ ${coordinates[1]}`,
+                text: `Coords: ${coordinates[0]} ~ ${coordinates[1]}`,
                 callback: () => {
-                    Unmined.copyToClipboard(`/tp ${coordinates[0]} ~ ${coordinates[1]}`);
+                    Unmined.copyToClipboard(`Coords: ${coordinates[0]} ~ ${coordinates[1]}`);
                 }
             })
             contextmenu.push('-');
