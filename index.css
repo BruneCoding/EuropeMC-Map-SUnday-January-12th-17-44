@@ -1,4 +1,4 @@
-.toggle-day {
+#toggle-day {
   color: #e5e9f0;
   background: #3b4252;
   border-radius: 15px;
@@ -18,11 +18,11 @@
   bottom: 10px;
 }
 
-.toggle-day h1, .toggle-day p {
+#toggle-day h1, #toggle-day p {
   margin: 0;
 }
 
-.toggle-day::before {
+#toggle-day::before {
   content: '';
   position: absolute;
   top: -5px;
