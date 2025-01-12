@@ -14,51 +14,61 @@ html, body {
 }
 
 .mouseposition {
-    background-color: white;
+    background-color: #3b4252; /* Neutral dark bluish-gray */
     padding: 3px;
     text-align: right;
+    color: #e5e9f0; /* Light gray */
 }
 
 .mousepositioncoord {
     min-width: 40px;
     display: inline-block;
+    color: #e5e9f0; /* Light gray */
 }
 
 div.ol-mouse-position {
-    background-color: white;
+    background-color: #3b4252; /* Neutral dark bluish-gray */
     padding: 6px;
     border-radius: 3px;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+    color: #e5e9f0; /* Light gray */
 }
 
 .ol-ctx-menu-container {
     font-size: 16px;
+    background-color: #3b4252;
+    color: #e5e9f0; /* Light gray */
 }
 
 .ol-scale-step-text {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 14px;
-    color: white;
+    color: #eceff4; /* Lighter soft white-gray */
     text-shadow:
         1px 0 0 black,
         0 1px 0 black,
         -1px 0 0 black,
-        0 -1px 0 black;
-    0px 0px 8px black;
+        0 -1px 0 black,
+        0px 0px 8px black;
 }
 
 .ol-scale-singlebar-odd {
-    background: #ddd;
+    background: #3b4252; /* Dark bluish-gray */
 }
 
 .ol-scale-singlebar-even {
-    background: #444;
+    background: #4c566a; /* Slightly lighter gray */
+}
+
+.ol-scale-bar:hover {
+    border: 2px solid #ffffff; /* White border on hover */
+    transition: border 0.3s ease-in-out; /* Smooth animation */
 }
 
 .toastify {
-    color: black;
-    background: yellow;
+    color: #1e1e2e; /* Deep bluish dark gray */
+    background: #88c0d0; /* Soft teal */
 }
 
 .ol-ctx-menu-container li {
