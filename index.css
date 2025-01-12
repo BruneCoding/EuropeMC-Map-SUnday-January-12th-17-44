@@ -13,7 +13,7 @@
   position: relative;
   overflow: hidden;
   position: absolute;
-  z-index: top;
+  z-index: 0;
   right: 10px;
   bottom: 10px;
 }
