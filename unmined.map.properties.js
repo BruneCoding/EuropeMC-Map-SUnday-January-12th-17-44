@@ -8,7 +8,7 @@ var UnminedMapProperties = {
     minRegionZ: 0,
     maxRegionX: 15,
     maxRegionZ: 14,
-    worldName: "EuropeVersion2",
+    worldName: "Map of",
     background: "",
     markers: new Array(),
     enableGrid: true,
