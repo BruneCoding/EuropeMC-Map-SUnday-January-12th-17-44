@@ -56,6 +56,8 @@ class RegionMap {
     };
 }
 
+}
+
 class Unmined {
 
     olMap = null;
@@ -84,6 +86,70 @@ class Unmined {
         centerX: 0,
         centerZ: 0
     }
+
+    const options = {
+    minRegionX: -10,
+    minRegionZ: -10,
+    maxRegionX: 10,
+    maxRegionZ: 10,
+    maxZoom: 5,
+    minZoom: 0,
+    imageFormat: 'png',
+    centerX: 0,
+    centerZ: 0,
+    borders: [
+        {
+            // Example border for one country
+            coordinates: [
+                [[-1000, -500], [-500, -500], [-500, -1000], [-1000, -1000], [-1000, -500]]
+            ]
+        },
+        {
+            // Another country example
+            coordinates: [
+                [[500, 500], [1000, 500], [1000, 1000], [500, 1000], [500, 500]]
+            ]
+        }
+    ]
+};
+
+// Initialize the map with the updated options
+const map = new Unmined(mapElement, options, regions);
+
+
+    constructor(mapElement, options, regions) {
+
+
+class Unmined {
+
+    olMap = null;
+
+    gridLayer = null;
+    coordinateLayer = null;
+    viewProjection = null;
+    dataProjection = null;
+    regionMap = null;
+    markersLayer = null;
+    playerMarkersLayer = null;    
+    bordersLayer = null;
+
+    #scaleLine = null;
+    #options = null;
+
+    static defaultOptions = {
+        enableGrid: true,
+        showGrid: true,
+        binaryGrid: true,
+        showScaleBar: true,
+        denseGrid: false,
+        showMarkers: true,
+        showPlayers: true,
+        showBorders: true, // New option for borders
+        centerX: 0,
+        centerZ: 0
+    }
+
+    
 
     constructor(mapElement, options, regions) {
 
